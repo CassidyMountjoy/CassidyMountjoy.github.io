@@ -1,0 +1,118 @@
+a { text-decoration: none; }
+
+html {
+    background: url(images/rolly.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding-top: 180px;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+/*About box*/
+.box {
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    background: rgba(0, 0, 0, .4);
+    padding: 40px;
+    text-align: center;
+    margin: 5% auto 20px;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+.box h5 {
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.box li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+.box li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover{
+    color: #b9b9b9;
+}
+
+
+/*Posts*/
+.posts {
+    padding: 1%;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.post {
+    position: relative;
+    width: 15%;
+    height: 180px;
+}
+
+
+.post img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: 1s ease;
+    background: rgba(0, 0, 0, .4);
+}
+
+.post:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    color: rgba(0, 0, 0, .8);
+}
