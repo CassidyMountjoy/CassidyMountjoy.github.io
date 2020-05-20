@@ -19,6 +19,7 @@ body {
 
 /*About box*/
 .box {
+    -webkit-box-sizing: border-box;
     width: 100%;
     background: rgba(0, 0, 0, .4);
     padding: 5%;
@@ -26,7 +27,6 @@ body {
     color: white;
     font-family: 'Century Gothic', sans-serif;
     font-size: 100%;
-    box-sizing: border-box;
 }
 
 .box h1 {
