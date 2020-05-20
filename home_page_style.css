@@ -79,6 +79,8 @@ ul {
     /* For mobile phones: */
     [class*="post"] {
         width: 25%;
+        height: auto;
+        position: relative;
     }
 }
 
