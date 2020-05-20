@@ -21,7 +21,7 @@ body {
 .box {
     bottom: 0;
     right: 0;
-    width: 450px;
+    width: 35%;
     background: rgba(0, 0, 0, .4);
     padding: 40px;
     text-align: center;
