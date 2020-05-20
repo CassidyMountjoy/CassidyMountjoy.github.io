@@ -31,7 +31,7 @@ body {
 }
 
 .box h1 {
-    font-size: 200%;
+    font-size: 100%;
     letter-spacing: 4px;
     font-weight: 100;
 }
@@ -54,7 +54,7 @@ ul {
 .box li a {
     color: white;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 100%;
     transition: all ease-in-out 250ms;
 }
 
