@@ -82,6 +82,9 @@ ul {
         height: auto;
         position: relative;
     }
+    div.box {
+        padding-right: 3%;
+    }
 }
 
 
