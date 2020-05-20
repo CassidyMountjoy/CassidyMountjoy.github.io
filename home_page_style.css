@@ -75,7 +75,7 @@ ul {
     height: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     /* For mobile phones: */
     div.post {
         width: 25%;
