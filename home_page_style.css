@@ -11,14 +11,11 @@ html {
 
 body {
     margin: 0;
-    padding-top: 10%;
+    padding-top: 15%;
     height: 100%;
     /*overflow: hidden;*/
 }
 
-* {
-    box-sizing: border-box;
-}
 
 /*About box*/
 .box {
@@ -26,9 +23,10 @@ body {
     right: 0;
     width: 35%;
     background: rgba(0, 0, 0, .4);
-    padding: 1%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    margin: 1% auto 10%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
     font-size: 100%;
@@ -66,6 +64,7 @@ ul {
 
 /*Posts*/
 .posts {
+    margin-top: 5%;
     padding: 1%;
     background-color: rgba(0, 0, 0, .4);
     display: flex;
