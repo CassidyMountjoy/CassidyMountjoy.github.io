@@ -19,7 +19,7 @@ body {
 
 /*About box*/
 .box {
-    -webkit-box-sizing: border-box;
+    -webkit-box-sizing: content-box;
     width: 100%;
     background: rgba(0, 0, 0, .4);
     padding: 5%;
