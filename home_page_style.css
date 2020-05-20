@@ -30,6 +30,7 @@ body {
     color: white;
     font-family: 'Century Gothic', sans-serif;
     font-size: 100%;
+    white-space:initial;
 }
 
 .box h1 {
