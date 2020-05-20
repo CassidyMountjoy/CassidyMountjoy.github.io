@@ -21,23 +21,22 @@ body {
 .box {
     bottom: 0;
     right: 0;
-    width: 30%;
+    width: 35%;
     background: rgba(0, 0, 0, .4);
-    padding: 3%;
+    padding: 1%;
     text-align: center;
-    margin: 5% auto 3%;
+    margin: 1% auto 10%;
     color: white;
     font-family: 'Century Gothic', sans-serif;
+    font-size: 100%;
 }
 
 .box h1 {
-    font-size: 100%;
     letter-spacing: 4px;
     font-weight: 100;
 }
 
 .box h5 {
-    font-size: 100%;
     letter-spacing: 3px;
 }
 
@@ -54,7 +53,6 @@ ul {
 .box li a {
     color: white;
     text-decoration: none;
-    font-size: 100%;
     transition: all ease-in-out 250ms;
 }
 
