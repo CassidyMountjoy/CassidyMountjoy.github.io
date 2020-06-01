@@ -16,7 +16,7 @@ a { text-decoration: none; }
     padding-left: 2%;
     color: black;
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 300%;
+    font-size: 4vw;
 }
 
 .bio {
@@ -58,7 +58,7 @@ a { text-decoration: none; }
     line-height: 12vw;
     font-family: 'Merriweather Sans', sans-serif;
     letter-spacing: 2px;
-    font-size: 100%;
+    font-size: 1.3vw;
     transition: all 0.3s ease-out;
     cursor: pointer;
 }
@@ -297,7 +297,7 @@ ul {
     border: 1px solid black;
     line-height: 200%;
     padding: 1%;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
