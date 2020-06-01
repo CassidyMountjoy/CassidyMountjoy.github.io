@@ -7,7 +7,7 @@ a { text-decoration: none; }
 }
 
 .name-cont img {
-    width: 7%;
+    width: 8vw;
     height: auto;
     padding-left: 3%;
 }
@@ -79,7 +79,7 @@ a { text-decoration: none; }
     background: #fff;
     border: 2px solid black;
     border-radius: 8%;
-    font-size: 80%;
+    font-size: 1vw;
     width: 15%;
     font-family: 'Merriweather Sans', sans-serif;
     line-height: 200%;
@@ -114,7 +114,7 @@ a { text-decoration: none; }
 .box .popup2 {
     display: none;
     padding: 1%;
-    font-size: 80%;
+    font-size: 1vw;
     background: #fff;
     border: 2px solid black;
     border-radius: 8%;
@@ -155,7 +155,7 @@ a { text-decoration: none; }
     background: #fff;
     border: 2px solid black;
     border-radius: 8%;
-    font-size: 80%;
+    font-size: 1vw;
     width: 15%;
     font-family: 'Merriweather Sans', sans-serif;
     line-height: 200%;
@@ -193,7 +193,7 @@ a { text-decoration: none; }
     border: 2px solid black;
     border-radius: 8%;
     width: 15%;
-    font-size: 80%;
+    font-size: 1vw;
     font-family: 'Merriweather Sans', sans-serif;
     line-height: 200%;
 }
@@ -280,12 +280,8 @@ ul {
     margin-top: 3%;
     margin-bottom: 3%;
     width: 100%;
-    /*height: 600px;*/
     background: url(images/blue_mountains.jpg) center;
     background-size: cover;
-    /*border-left: 1px solid black;*/
-    /*border-right: 1px solid black;*/
-    /*border-bottom: 1px solid black;*/
     border: 1px solid black;;
     display: flex;
     flex-direction: column;
@@ -400,4 +396,22 @@ footer {
         height: auto;
         position: relative;
     }
+    div.dot {
+        font-size: 50%;
+    }
+    div.bioBox {
+        font-size: 5px;
+    }
+    /*div.popup1 {*/
+    /*    font-size: 10%;*/
+    /*}*/
+    /*div.popup2{*/
+    /*    font-size: 10%;*/
+    /*}*/
+    /*div.popup3{*/
+    /*    font-size: 10%;*/
+    /*}*/
+    /*div.popup4 {*/
+    /*    font-size: 10%;*/
+    /*}*/
 }
