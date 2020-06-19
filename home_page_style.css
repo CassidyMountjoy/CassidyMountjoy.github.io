@@ -49,16 +49,16 @@ a { text-decoration: none; }
 
 .box .dot {
     display: inline-block;
-    width: 12vw;
-    height: 12vw;
+    width: 14vw;
+    height: 14vw;
     border-radius: 50%;
     background: #38a9e4;
     color: white;
     text-align: center;
-    line-height: 12vw;
+    line-height: 14vw;
     font-family: 'Merriweather Sans', sans-serif;
     letter-spacing: 2px;
-    font-size: 1.1vw;
+    font-size: 1.3vw;
     transition: all 0.3s ease-out;
     cursor: pointer;
 }
